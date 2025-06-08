@@ -1,0 +1,12 @@
+# Node / clasp related
+node_modules/
+.clasp.json
+.env
+
+# IDE / Editor files
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+*.log
