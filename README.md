@@ -49,6 +49,28 @@ This project automates the daily download of access logs from a secure web porta
 
 ---
 
+## Daily Sheet Structure
+
+For better organization and historical tracking, the automation creates a **separate sheet tab for each day's access logs** within a single Google Sheets document.
+
+### 🗂 Sheet Naming Convention
+
+Each tab is named using the `YYYY-MM-DD` format, representing the date the logs were recorded:
+
+| Sheet Name     | Description                         |
+|----------------|-------------------------------------|
+| `2025-06-05`   | Logs for June 5, 2025               |
+| `2025-06-06`   | Logs for June 6, 2025               |
+| `2025-06-07`   | Logs for June 7, 2025  |
+
+### 🔄 Automatic Sheet Handling
+
+- If a sheet for a specific date **does not exist**, it is **automatically created**.
+- If it **already exists**, the log data for that date is **updated**, ensuring accuracy and consistency.
+- This provides a clean, day-by-day breakdown of access records while allowing for reprocessing or correction of past logs.
+
+---
+
 ## Example Access Log File Content (CSV)
 
 This is a sample of the typical access log data read from the downloaded CSV files. The automation parses and processes these records for storage and analysis.
