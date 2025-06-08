@@ -1,0 +1,6 @@
+Id,Date,EventCode,NotificationType,LogType,CustomerId,CustomerName,ProximityCard,DoorId,DoorName,ApartmentId,ApartmentName
+10001,2025-06-07,EV123,Entry,Access,C001,John Smith,PC123456,D12,Main Entrance,A101,Sunset Towers
+10002,2025-06-07,EV124,Exit,Access,C002,Jane Doe,PC654321,D12,Main Entrance,A102,River View
+10003,2025-06-07,EV125,Access Denied,Alert,C003,Bob Johnson,PC789012,D07,Parking Garage,A103,Hillcrest Apartments
+10004,2025-06-07,EV126,Entry,Access,C004,Alice Brown,PC456789,D15,Side Door,A104,Sunset Towers
+10005,2025-06-07,EV127,Exit,Access,C005,Michael Lee,PC987654,D15,Side Door,A105,River View
