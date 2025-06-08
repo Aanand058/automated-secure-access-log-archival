@@ -2,7 +2,7 @@
 # Automated Secure Access Log Archival
 
 ## Project Description  
-This project automates the daily download of access logs from a secure web portal and uploads them to a designated Google Drive folder. The automation is implemented using Google Apps Script, leveraging Google Drive API for file management and URL Fetch for secure downloads. It enhances operational efficiency by eliminating manual intervention and ensures timely availability of logs for analysis.
+This project automates the daily download of access logs from a secure web portal and uploads them to a designated Google Drive folder. The automation is implemented using Google Apps Script, leveraging Google Drive API for file management and URL Fetch for secure downloads. For each day’s log, a new sheet is generated automatically within the Google Sheets document, and the logs for previous days are updated in their respective daily sheets spanning every 24 hours. This approach enhances operational efficiency by eliminating manual intervention and ensures timely and organized availability of logs for analysis.
 
 ---
 
